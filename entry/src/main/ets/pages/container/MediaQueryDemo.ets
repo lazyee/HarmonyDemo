@@ -1,8 +1,8 @@
-import { text } from '@kit.ArkGraphics2D'
+//https://developer.huawei.com/consumer/cn/doc/harmonyos-guides-V5/arkts-layout-development-media-query-V5
 import { mediaquery, window } from '@kit.ArkUI'
 import { common } from '@kit.AbilityKit'
 import "../../constants/UIConstants"
-import { UIConstants } from '../../constants/UIConstants'
+import { SizeProps } from '../../framework/@Framework'
 
 @Entry
 @Component
@@ -52,7 +52,7 @@ struct MediaQueryDemo{
     }
     .alignItems(HorizontalAlign.Center)
     .justifyContent(FlexAlign.Center)
-    .width(UIConstants.MATCH_CONTENT)
-    .height(UIConstants.MATCH_CONTENT)
+    .width(SizeProps.MATCH_CONTENT)
+    .height(SizeProps.MATCH_CONTENT)
   }
 }

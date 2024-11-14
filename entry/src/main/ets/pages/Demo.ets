@@ -1,8 +1,14 @@
 import { router } from "@kit.ArkUI"
+import { Keys } from '../framework/@Framework'
 
 @Entry
 @Component
 struct Demo{
+  @StorageProp(Keys.kNavigationBarHeight)
+  navigationBarHeight:number = 0
+  @StorageProp(Keys.kStatusBarHeight)
+  statusBarHeight:number = 0
+
   @State itemDataList: ItemData[] = [
     new ItemData("Row",()=>{
       router.pushUrl({url:"pages/container/RowDemo"})
@@ -25,6 +31,18 @@ struct Demo{
     new ItemData("List LazyForEach",()=>{
       router.pushUrl({url:"pages/container/LazyForEachListDemo"})
     }),
+    new ItemData("Grid LazyForEach",()=>{
+      router.pushUrl({url:"pages/container/LazyForEachGridDemo"})
+    }),
+    new ItemData("SwiperDemo",()=>{
+      router.pushUrl({url:"pages/container/SwiperDemo"})
+    }),
+    new ItemData("TabsDemo",()=>{
+      router.pushUrl({url:"pages/container/TabsDemo"})
+    }),
+    // new ItemData("获取状态栏和导航条高度",()=>{
+    //   router.pushUrl({url:"pages/container/TabsDemo"})
+    // }),
   ];
 
   @Builder _buildItem(itemData:ItemData,index:number){
@@ -47,6 +65,7 @@ struct Demo{
     .backgroundColor(Color.White)
     .width("100%")
     .height("100%")
+    .padding({top:px2vp(this.statusBarHeight),bottom:px2vp(this.navigationBarHeight)})
   }
 }
 

@@ -7,6 +7,9 @@
     "pages/container/FlexDemo",
     "pages/container/RelativeContainerDemo",
     "pages/container/MediaQueryDemo",
-    "pages/container/LazyForEachListDemo"
+    "pages/container/LazyForEachListDemo",
+    "pages/container/LazyForEachGridDemo",
+    "pages/container/SwiperDemo",
+    "pages/container/TabsDemo"
   ]
 }

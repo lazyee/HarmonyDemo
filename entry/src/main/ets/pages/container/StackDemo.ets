@@ -1,3 +1,4 @@
+//https://developer.huawei.com/consumer/cn/doc/harmonyos-guides-V5/arkts-layout-development-stack-layout-V5
 @Entry
 @Component
 struct StackDemo{
