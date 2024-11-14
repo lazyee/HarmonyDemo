@@ -1,0 +1,12 @@
+{
+  "src": [
+    "pages/Demo",
+    "pages/container/RowDemo",
+    "pages/container/ColumnDemo",
+    "pages/container/StackDemo",
+    "pages/container/FlexDemo",
+    "pages/container/RelativeContainerDemo",
+    "pages/container/MediaQueryDemo",
+    "pages/container/LazyForEachListDemo"
+  ]
+}
