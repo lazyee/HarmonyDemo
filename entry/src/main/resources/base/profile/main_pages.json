@@ -10,6 +10,16 @@
     "pages/container/LazyForEachListDemo",
     "pages/container/LazyForEachGridDemo",
     "pages/container/SwiperDemo",
-    "pages/container/TabsDemo"
+    "pages/container/TabsDemo",
+    "pages/widgets/ButtonDemo",
+    "pages/widgets/RadioDemo",
+    "pages/widgets/ToggleDemo",
+    "pages/widgets/ProgressDemo",
+    "pages/widgets/ImageDemo",
+    "pages/widgets/TextAndSpanDemo",
+    "pages/widgets/TextInputAndTextAreaDemo",
+    "pages/widgets/RichEditorDemo",
+    "pages/dialog/ModelDialogDemo"
+
   ]
 }

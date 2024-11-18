@@ -25,7 +25,7 @@ export default class EntryAbility extends UIAbility {
         return;
       }
       hilog.info(0x0000, 'testTag', 'Succeeded in loading the content.');
-      this.fullScreenManager.init(windowStage)
+      // this.fullScreenManager.init(windowStage)
     //   //获取应用主窗口
     //   let windowsClass: window.Window = windowStage.getMainWindowSync()
     //   //1. 设置窗口全屏

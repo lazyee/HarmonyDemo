@@ -40,9 +40,30 @@ struct Demo{
     new ItemData("TabsDemo",()=>{
       router.pushUrl({url:"pages/container/TabsDemo"})
     }),
-    // new ItemData("获取状态栏和导航条高度",()=>{
-    //   router.pushUrl({url:"pages/container/TabsDemo"})
-    // }),
+    new ItemData("ButtonDemo",()=>{
+      router.pushUrl({url:"pages/widgets/ButtonDemo"})
+    }),
+    new ItemData("RadioDemo",()=>{
+      router.pushUrl({url:"pages/widgets/RadioDemo"})
+    }),
+    new ItemData("ToggleDemo",()=>{
+      router.pushUrl({url:"pages/widgets/ToggleDemo"})
+    }),
+    new ItemData("ProgressDemo",()=>{
+      router.pushUrl({url:"pages/widgets/ProgressDemo"})
+    }),
+    new ItemData("ImageDemo",()=>{
+      router.pushUrl({url:"pages/widgets/ImageDemo"})
+    }),
+    new ItemData("TextAndSpanDemo",()=>{
+      router.pushUrl({url:"pages/widgets/TextAndSpanDemo"})
+    }),
+    new ItemData("TextInputAndTextAreaDemo",()=>{
+      router.pushUrl({url:"pages/widgets/TextInputAndTextAreaDemo"})
+    }),
+    new ItemData("ModelDialog",()=>{
+      router.pushUrl({url:"pages/dialog/ModelDialogDemo"})
+    }),
   ];
 
   @Builder _buildItem(itemData:ItemData,index:number){
