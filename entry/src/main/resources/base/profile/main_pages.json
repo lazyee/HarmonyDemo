@@ -1,6 +1,7 @@
 {
   "src": [
     "pages/Demo",
+    "pages/container/ContainerDemo",
     "pages/container/RowDemo",
     "pages/container/ColumnDemo",
     "pages/container/StackDemo",
@@ -11,6 +12,7 @@
     "pages/container/LazyForEachGridDemo",
     "pages/container/SwiperDemo",
     "pages/container/TabsDemo",
+    "pages/widgets/WidgetsDemo",
     "pages/widgets/ButtonDemo",
     "pages/widgets/RadioDemo",
     "pages/widgets/ToggleDemo",
@@ -19,7 +21,17 @@
     "pages/widgets/TextAndSpanDemo",
     "pages/widgets/TextInputAndTextAreaDemo",
     "pages/widgets/RichEditorDemo",
-    "pages/dialog/ModelDialogDemo"
-
+    "pages/dialog/ModelDialogDemo",
+    "pages/dialog/AlertDialogDemo",
+    "pages/dialog/ActionSheetDemo",
+    "pages/dialog/CustomDialogDemo",
+    "pages/dialog/GlobalCustomDialogDemo",
+    "pages/dialog/PromptActionDemo",
+    "pages/animate/AnimateToDemo",
+    "pages/web/WebDemo",
+    "pages/file/CoreFileKitDemo",
+    "pages/file/CreateFileDemo",
+    "pages/file/FileListDemo",
+    "pages/file/TempAuthGetMediaUrlDemo"
   ]
 }

@@ -20,7 +20,7 @@ struct SwiperDemo{
         LazyForEach(this.dataSource,(item:string,index:number)=>{
           ListItem(){
             Text(item)
-              .width(SizeProps.MATCH_CONTENT)
+              .width(SizeProps.FULL_WINDOW)
               .height(200)
               .backgroundColor(Color.Red)
               .fontSize(30)
@@ -47,9 +47,9 @@ struct SwiperDemo{
             this.swiperController.showPrevious()
           })
       }
-      .width(SizeProps.MATCH_CONTENT)
+      .width(SizeProps.FULL_WINDOW)
     }
-    .width(SizeProps.MATCH_CONTENT)
-    .height(SizeProps.MATCH_CONTENT)
+    .width(SizeProps.FULL_WINDOW)
+    .height(SizeProps.FULL_WINDOW)
   }
 }

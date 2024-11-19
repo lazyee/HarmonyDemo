@@ -17,8 +17,8 @@ export struct SafeArea{
       this.builder()
     }
     .padding({top:px2vp(this.statusBarHeight),bottom:px2vp(this.navigationBarHeight)})
-    .width(SizeProps.MATCH_CONTENT)
-    .height(SizeProps.MATCH_CONTENT)
+    .width(SizeProps.FULL_WINDOW)
+    .height(SizeProps.FULL_WINDOW)
 
   }
 }

@@ -50,7 +50,7 @@ struct RichEditorDemo{
         .onDidChange((rangeBefore: TextRange, rangeAfter: TextRange)=>{
           console.log(`onDidChange rangeBefore:${JSON.stringify(rangeBefore)};rangeAfter:${rangeAfter};`)
         })
-        .width(SizeProps.MATCH_CONTENT)
+        .width(SizeProps.FULL_WINDOW)
         .height(200)
         .backgroundColor(Color.Gray)
         .border({radius: 10})

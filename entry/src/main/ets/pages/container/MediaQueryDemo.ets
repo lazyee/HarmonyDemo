@@ -51,7 +51,7 @@ struct MediaQueryDemo{
     }
     .alignItems(HorizontalAlign.Center)
     .justifyContent(FlexAlign.Center)
-    .width(SizeProps.MATCH_CONTENT)
-    .height(SizeProps.MATCH_CONTENT)
+    .width(SizeProps.FULL_WINDOW)
+    .height(SizeProps.FULL_WINDOW)
   }
 }

@@ -1,3 +1,3 @@
 export class SizeProps{
-  static MATCH_CONTENT = "100%"
+  static FULL_WINDOW = "100%"
 }
