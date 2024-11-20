@@ -29,6 +29,9 @@ struct Demo{
     }),
     new ListItemData("CoreFileKitDemo",()=>{
       router.pushUrl({url:"pages/file/CoreFileKitDemo"})
+    }),
+    new ListItemData("ArkDataDemo",()=>{
+      router.pushUrl({url:"pages/data/ArkDataDemo"})
     })
   ];
 

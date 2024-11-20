@@ -11,7 +11,10 @@
     ],
     "requestPermissions": [
       {
-        "name" : "ohos.permission.INTERNET"
+        "name" : "ohos.permission.INTERNET",
+      },
+      {
+        "name": "ohos.permission.FILE_ACCESS_PERSIST"
       }
     ],
     "deliveryWithInstall": true,

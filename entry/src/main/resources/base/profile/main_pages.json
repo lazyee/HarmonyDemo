@@ -32,6 +32,12 @@
     "pages/file/CoreFileKitDemo",
     "pages/file/CreateFileDemo",
     "pages/file/FileListDemo",
-    "pages/file/TempAuthGetMediaUrlDemo"
+    "pages/file/TempAuthGetMediaUrlDemo",
+    "pages/file/DocumentViewPickerDemo",
+    "pages/file/AudioViewPickerDemo",
+    "pages/file/FileAccessPersistDemo",
+    "pages/data/ArkDataDemo",
+    "pages/data/PreferencesDemo"
+
   ]
 }
